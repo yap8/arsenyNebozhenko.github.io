@@ -1,0 +1,48 @@
+.projects {
+  &__title {
+    font-size: 32px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  &__list {
+    display: flex;
+  }
+  &__item {
+    border-radius: 4px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    width: 30%;
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+  }
+  &__preview {
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  &__preview-image {
+    width: 100%;
+  }
+  &__name {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  &__links {
+    display: flex;
+    justify-content: center;
+  }
+  &__link {
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    padding: 8px;
+    background-color: #1E1E1E;
+    border-radius: 4px;
+    margin: 4px;
+    margin-bottom: 0;
+    &:hover {
+      background-color: darken(#1E1E1E, 25)
+    }
+  }
+}

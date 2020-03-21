@@ -1,0 +1,20 @@
+.section {
+  &:not(:last-of-type) {
+    margin-bottom: 16px;
+  }
+  &__inner {
+    background-color: #F8F9FA;
+    border-radius: 8px;
+    padding: 32px;
+  }
+  &__title {
+    text-align: center;
+    font-size: 44px;
+  }
+  &__list {
+
+  }
+  &__list-item {
+
+  }
+}
